@@ -15,8 +15,6 @@ const withRouter = (Component) => {
 };
 
 const TweetPage = (props) => {
-  console.log(props);
-
   return (
     <div>
       <Tweet id={props.id} />
